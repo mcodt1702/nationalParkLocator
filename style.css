@@ -1,0 +1,52 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: dodgerblue;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.input { 
+
+    text-align: center;
+}
+
+img {
+
+    width: 300px;
+}
+
+#display{
+
+    display: flex;
+}
+
+p { 
+    width: 300px;
+font-size: 12px;
+
+}
+
+ul{
+    font-size: 20px;
+ list-style: none;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+
+.hidden{
+
+    display: none;
+}
+
