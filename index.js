@@ -31,7 +31,7 @@ function createUrlstring() {
   const api = "h3CUlOVYyQPS9k9vv4Om71GrwvbVJyhmmsuuGpkW";
   const baseUrl = `https://developer.nps.gov/api/v1/parks?stateCode=${state}&limit=${howMany}&api_key=${api}`;
   $("#stateInput").val("");
-  $("#numberOfResultsinput").val("");
+  $("#numberOfResultsinput").val("10");
   fetchUrl(baseUrl);
 }
 
